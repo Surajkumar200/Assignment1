@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+html,
+body {
+ height: 100%;
+ width: 100%;
+
+}
+.container {
+    display: flex;      
+    width: 100%;
+    height: 100%;  
+   border-radius: 10%;
+position: relative; 
+  box-sizing: border-box;
+    
+}
+
+.left-box {   
+    flex: 1.5;   
+    width: 60%;
+    background-color: #ffd900; 
+    position:relative;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+
+.left-box img{
+    width: 30%;
+    padding-bottom: 10%;
+   
+}
+.left-box pre{
+  
+     font-weight:bold;
+
+}
+
+.left-box h1{
+    font-size: 90px;
+}
+
+.pikachu img{
+    
+width: 600px;
+   position: absolute;
+   flex: 1;
+   top:20%;
+   left: 65%;
+ 
+}
+.left-child
+.left-text{
+    font-weight: 100;
+}
+
+.left-box .ball{
+    width: 300px;
+    overflow:hidden;
+    padding-right: 0;
+}
+.right-box {
+   flex: 1;       
+    background-color: #F5E6C4; 
+}
+
+.right-box .icon{
+    width: 20%;
+  padding: 30px;
+  padding-left: 90%;
+}
